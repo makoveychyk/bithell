@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Useful meta tags -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow, noodp" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="google" content="notranslate" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="src/style.css" />
+    <!-- <script src="assets/js/jquery-3.3.1.min.js"></script> -->
+    <!-- <script src="assets/js/bootstrap.bundle.min.js"></script> -->
+
+    <title>Home</title>
+  </head>
+  <body>
+    <section class="head">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="box">
+              <div class="row no-gutters">
+                <div class="col-lg-8 col-md-7 col-sm-6 col-xs-12">
+                  <h1>Select currency to exhange:</h1>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
+                  <div class="dropdown">
+                    <button
+                      type="button"
+                      class="btn btn-default"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Select currency
+                      <span class="caret_img"
+                        ><img src="assets/i/caret.png" alt=""
+                      /></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                      <li>
+                        <a href="#" id="usd" onclick="dollars()"> USD </a>
+                      </li>
+                      <li><a href="#" id="eur" onclick="euro()"> EUR </a></li>
+                      <li><a href="#" id="rub" onclick="rubl()"> RUB </a></li>
+                      <li><a href="#" id="gbp" onclick="funt()"> GBP </a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cripta">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-sm-12 col-xs-12" id="ethereum">
+            <div class="ethereum">
+              <h3>Ethereum</h3>
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-6 price_text">
+                  <h5>Price</h5>
+                  <p>Percent change</p>
+                  <ul>
+                    <li>Hour change</li>
+                    <li>Day change</li>
+                    <li>Week change</li>
+                    <li>Mounth change</li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 col-6 price_numbers">
+                  <p class="priseCripta"></p>
+                  <label class="switch">
+                    <input type="checkbox" class="input"/>
+                    <span class="slider round"></span>
+                  </label>
+                  <ul class="price-chenges">
+                    <li class="cart_num_1 numAll"></li>
+                    <li class="cart_num_1 numAll"></li>
+                    <li class="cart_num_1 numAll"></li>
+                    <li class="cart_num_1 numAll"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-sm-12 col-xs-12" id="litecoin">
+            <div class="litecoin">
+              <h3>Litecoin</h3>
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-6 price_text">
+                  <h5>Price</h5>
+                  <p>Percent change</p>
+                  <ul>
+                    <li>Hour change</li>
+                    <li>Day change</li>
+                    <li>Week change</li>
+                    <li>Mounth change</li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 col-6 price_numbers">
+                  <p class="priseCripta"></p>
+                  <label class="switch">
+                    <input type="checkbox" class="input" />
+                    <span class="slider round"></span>
+                  </label>
+                  <ul class="price-chenges">
+                    <li class="cart_num_2 numAll"></li>
+                    <li class="cart_num_2 numAll"></li>
+                    <li class="cart_num_2 numAll"></li>
+                    <li class="cart_num_2 numAll"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4 col-sm-12 col-xs-12" id="bitcoin">
+            <div class="bitcoin">
+              <h3>Bitcoin</h3>
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-6 price_text">
+                  <h5>Price</h5>
+                  <p>Percent change</p>
+                  <ul>
+                    <li>Hour change</li>
+                    <li>Day change</li>
+                    <li>Week change</li>
+                    <li>Mounth change</li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 col-6 price_numbers">
+                  <p class="priseCripta"></p>
+                  <label class="switch">
+                    <input type="checkbox" class="input" />
+                    <span class="slider round"></span>
+                  </label>
+                  <ul class="price-chenges">
+                    <li class="cart_num_3 numAll"></li>
+                    <li class="cart_num_3 numAll"></li>
+                    <li class="cart_num_3 numAll"></li>
+                    <li class="cart_num_3 numAll"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="src/script.js"></script>
+  </body>
+</html>
